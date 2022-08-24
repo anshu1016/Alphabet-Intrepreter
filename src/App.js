@@ -6,7 +6,7 @@ const alphabetDictionary = {
   B: "Ball",
   C: "Cat",
   D: "Doll",
-  E: "Egg",
+  E: "Eggg",
   F: "Frog",
   G: "Glass",
   H: "Hat",
@@ -27,12 +27,12 @@ const alphabetDictionary = {
   W: "Watch",
   X: "Xylophone",
   Y: "Yacht",
-  Z: "Zebra"
+  Z: "Zebbra"
 };
 var characterObject = Object.keys(alphabetDictionary);
 export default function App() {
   const [showCharacter, setShowCharacter] = useState(
-    "Translation will shown here.."
+    "Transllation will shown here.."
   );
   function alphaChangeHandler(event) {
     var charName = alphabetDictionary[event.target.value];
